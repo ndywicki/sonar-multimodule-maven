@@ -70,10 +70,10 @@ ml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.x
 For large projects or in the corporate world, a simple way to control what can
 and cannot be ignored by project teams in reports is to use rules in a "super pom" or just in the parent pom.
 
-Example to ignore globally the **S3437** rule with the **resourceKey** `rc/main/java/**/*`:
+Example to ignore globally the [S3437](https://rules.sonarsource.com/java/RSPEC-3437) rule with the **resourceKey** `rc/main/java/**/*`:
 
 ```properties
-# Rule https://sonarcloud.io/coding_rules?open=squid%3AS3437&rule_key=squid%3AS3437 is ignored, as a JPA-managed field cannot be transient
+# Rule https://rules.sonarsource.com/java/RSPEC-3437 is ignored, as a JPA-managed field cannot be transient
 sonar.issue.ignore.multicriteria.S3437.resourceKey=src/main/java/**/*
 sonar.issue.ignore.multicriteria.S3437.ruleKey=squid:S3437
 ```
