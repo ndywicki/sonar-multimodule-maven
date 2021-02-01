@@ -1,6 +1,6 @@
 # Maven multi-modules for SonarQube
 
-Sample project to help the ticket investigation.
+Sample project linked to the topic [community.sonarsource-37876](https://community.sonarsource.com/t/maven-multi-modules-with-sonarqube/37876).
 
 This is a Maven multi-modules with a Spring Boot 2 `backend` an Angular `frontend`.
 
