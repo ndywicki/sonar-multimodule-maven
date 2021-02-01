@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  sonar:
+    image: sonarqube:8.6.1-community
+    environment:
+      - sonar.forceAuthentication=false
+    ports:
+      - 9001:9000
